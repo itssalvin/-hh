@@ -17,7 +17,7 @@ export const DaylightChart: React.FC<DaylightChartProps> = ({ location }) => {
   return (
     <div className="w-full h-[300px] sm:h-[400px] bg-white p-3 sm:p-4 rounded-lg shadow-lg">
       <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-4">{location.name}全年日照时间</h3>
-      <ResponsiveContainer width="100%" height="100%">
+      <Resp onsiveContainer width="100%" height="100%">
         <LineChart 
           data={data}
           margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
